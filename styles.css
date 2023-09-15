@@ -1,0 +1,192 @@
+body{
+  background: hsla(223, 16%, 91%, 0.8);
+  overflow-x: hidden;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h1{
+  position: relative;
+  left: 210px;
+  color: rgb(13, 20, 80);
+  text-align: center;
+  width: 760px;
+  font-size: 25px;
+  font-family: Helvetica;
+  display: inline-block;
+  margin: 0;
+  margin-top: 10px;
+}
+
+h4{
+  position: relative;
+  left:610px;
+  margin: 0;
+  color: rgb(13, 20, 80);
+  font-family: Helvetica;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.header{
+  display:flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.republic{
+  position: relative;
+  left: 210px;
+}
+
+.lto-logo{
+  position: relative;
+  right: -210px;
+}
+
+
+.personal-header, .application-header{
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 180px;
+  margin-bottom: 0;
+  width:1016px ;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:  rgb(13, 20, 80);
+  font-size: 30px;
+
+}
+.personal-container, .application-container{
+  display: inline-block;
+  border:solid;
+  border-color: rgb(13, 20, 80);
+  padding: 30px;
+  width: 960px;
+  position: relative;
+  left: 180px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  background: hsla(0, 0%, 97%, 0.846);
+}
+
+.application-container{
+  padding-top: 10px;
+  height: 480px;
+}
+
+.fullname, .fathername,.mothername, .spousename, .present-add, .employer-info{
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.toa, .tla-dsa, .driving-acquired{
+  margin:5px;
+  display: inline-block;
+}
+
+label{
+  margin-right: 10px;
+}
+
+.municipality select[name="municipality"] {
+  width: 177px;
+  height: 21px;
+}
+
+.province select[name="province"]{
+  height: 21px;
+}
+
+.contact-tin input[type="tel"], .contact-tin input[type="text"] {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.nationality select[name="nationality"],
+.birthplace select[name="birthplace-municipal"] {
+  width: 177px;
+  height: 21px;
+}
+.birthplace select[name="province"] {
+  height: 21px;
+}
+
+.nationality, .gender, .birthdate, .civil-status, .birthplace{
+  margin-bottom: 10px;
+}
+
+.height-weight input[type="number"]{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 80px;
+}
+
+.hair-color, .eye-color, .built, .complexion, .blood-type, .donor, .birthplace,
+.fathername, .mothername, .spousename, .employer-info{
+  margin-bottom: 10px;
+}
+
+.employer-info input[type="text"]{
+  margin-right: 10px;
+}
+
+.employer-address input[name="zipcode"]{
+  width: 80px;
+}
+
+.toa{
+  width:300px;
+  margin-top: 30px;
+}
+
+
+.tla{
+  display: inline-block;
+  width: 290px;
+  position: relative;
+  top: -252px;
+  left: 50px;
+ 
+}
+
+.dsa{
+  display: inline-block;
+  width: 290px;
+  position: relative;
+  left: -245px;
+  top: -125px;
+}
+
+.educ{
+  display: inline-block;
+  position: relative;
+  top: -385px;
+  left: 700px;
+}
+
+.lastname, .firstname, .middlename{
+  width:193px;
+  height:50px;
+}
+
+.house-num, .street, .municipality, .province{
+  width:200px;
+  height:50px;
+}
+
+.municipality select, .province select{
+  width: 150px;
+}
+
